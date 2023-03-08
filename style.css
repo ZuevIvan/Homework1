@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+
+.top {
+    height: 735px;
+    background-image: url(img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.top_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.top_title{
+    width: 788px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.top_text{
+    width: 471px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.top_button{
+    background: #9C0332;
+    border-radius: 30px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 275px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    transition: all 0.5s;
+}
+
+.footer{
+    height: 556px;
+    background: #000915;
+}
+
+.footer_content{
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 128px;
+
+}
+
+.footer_item{
+    color: white;
+    height: 300px;
+    grid-column: span 4;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    border-radius: 16px;
+}
+
+.footer_item_1{
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/game1.jpg);
+    grid-column: span 4;
+}
+
+
+.footer_item_2{
+    background:linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/game\ 2.jpg);
+    grid-column: span 4;
+}
+
+.footer_item_3{
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/game\ 3.jpg) ;
+    grid-column: span 4;
+}
