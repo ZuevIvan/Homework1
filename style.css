@@ -16,8 +16,8 @@ body {
 }
 
 .center {
-    padding-left: calc(50% - 720px);
-    padding-right: calc(50% - 720px);
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
 }
 
 
