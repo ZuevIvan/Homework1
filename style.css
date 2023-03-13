@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+
+.top {
+    height: 1024px;
+    background-image: url(img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.top_title {
+    max-width: 789px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    padding-top: 217px;
+}
+
+.top_text {
+    max-width: 481px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+.top_button{
+    background: #9C0332;
+    border: 1px solid #9c0332;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 234px;
+    height: 49px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 44px;
+    transition: all 0.5s;
+}
+
+.bottom {
+    height: 556px;
+    background-image: url(./img/bottom.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding-top: 128px;
+}
+
+.bottom__card-1 {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/game_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.bottom__card-2 {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/game_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.bottom__card-3 {
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/game_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+
+.bottom__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 237px;
+    margin-left: 32px;
+}
+
