@@ -50,3 +50,26 @@ switch (monthNumber) {
         break;
 }
 
+//* Задание 7 *//
+
+let a = Number(prompt('Введите первое число'));
+let x = a % 2;//если остаток от деления 1 - то нечетное, если NaN - ввели не число
+if (x === 0) {alert('Четное');}
+else if (x > 0 || x < 0) {alert('Нечетное');}
+else if (isNaN(x)) {alert('Ввели не число');}
+
+//* Задание 8 *//
+let clientOS = String(prompt('Пользователь заходит с телефона')); //0-iOS, 1-Android
+clientOS = clientOS.toLowerCase();
+if (clientOS === 'android') {alert('Установите версию приложения для Android по ссылке')} 
+else if (clientOS === 'ios') {alert('Установите версию приложения для iOS по ссылке');}
+else {alert('Я не знаю, что это за модель телефона');}
+
+//* Задание 9 *//
+let clientOS = String(prompt('Пользователь заходит с телефона')); //0-iOS, 1-Android
+let clientDeviceYear = Number(prompt('Год выпуска вашего телефона')); //2015 или свежее
+clientOS = clientOS.toLowerCase();
+if (clientOS === 'android' && clientDeviceYear < 2015) {alert('Установите облегченную версию приложения для Android по ссылке');}
+if (clientOS === 'android' && clientDeviceYear >= 2015) {alert('Установите версию приложения для Android по ссылке');}
+if (clientOS === 'ios' && clientDeviceYear < 2015) {alert('Установите облегченную версию приложения для iOS по ссылке');}
+if (clientOS === 'ios' && clientDeviceYear >= 2015) {alert('Установите версию приложения для iOS по ссылке');}
