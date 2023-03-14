@@ -5,8 +5,8 @@ alert(а);
 alert(а);
 
 //* Задание №2 *//
-let firstYearIPhone = 2007
-alert('Первый год выпуска iPhone - это ' + firstYearIPhone + ' год.');
+let yearFirstIPhone = 2007
+alert('Первый год выпуска iPhone - это ' + yearFirstIPhone + ' год.');
 
 //* Задание №3 *//
 let creatorOfJS = "Брендан Эйх";
