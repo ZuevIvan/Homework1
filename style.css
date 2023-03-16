@@ -121,3 +121,61 @@ body {
     margin-left: 32px;
 }
 
+/* Мобильная версия сайта */
+@media (max-width: 1140px) {
+    .top {
+        height: 735px;
+    }
+
+    .bottom {
+        height: 1221px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        row-gap: 32px;
+    }
+}
+
+@media (max-width: 400px) {
+    .bottom__card-1 {
+        width: 343px;
+    }
+
+    .bottom__card-2 {
+        width: 343px;
+    }
+
+    .bottom__card-3 {
+        width: 343px;
+    }
+
+    .top {
+        align-items: center;
+    }
+
+
+    .top_title {
+        padding-top: 239px;
+        max-width: 343px;
+        height: 78px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top_text {
+        max-width: 343px;
+        height: 66px;
+        font-size: 14px;
+        line-height: 22px;
+        align-items: center;
+        text-align: center;
+    }
+
+   
+}
