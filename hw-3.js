@@ -2,16 +2,16 @@
 let password = 'пароль';
 let passwordUser = String(prompt('Введите пароль'));
 passwordUser = passwordUser.toLowerCase(); //на случай ввода пароля с большой буквы
-(passwordUser === 'пароль') ? alert('Пароль введен верно') : alert('Пароль введен неправильно');
+alert(passwordUser === 'пароль' ? 'Пароль введен верно' : 'Пароль введен неправильно');
 
 //* Задание №2 *//
 let с = Number(prompt('Введите любое число'));
-(с > 0 && с < 10) ? alert('Верно') : alert('Неверно');
+alert (с > 0 && с < 10 ? 'Верно' : 'Неверно'  );
 
 //* Задание №3 *//
 let d = Number(prompt('Введите любое число'));
 let e = Number(prompt('Введите любое число'));
-(e > 100 || d > 100) ? console.log('Верно') : console.log('Неверно');
+console.log (e > 100 || d > 100 ? 'Верно' : 'Неверно');
 
 //* Задание №4 *//
 let а = '2';
@@ -59,7 +59,7 @@ else if (x > 0 || x < 0) {alert('Нечетное');}
 else if (isNaN(x)) {alert('Ввели не число');}
 
 //* Задание 8 *//
-let clientOS = String(prompt('Пользователь заходит с телефона')); //0-iOS, 1-Android
+let clientOS =prompt('Пользователь заходит с телефона').toLowerCase(); //0-iOS, 1-Android
 clientOS = clientOS.toLowerCase();
 if (clientOS === 'android') {alert('Установите версию приложения для Android по ссылке')} 
 else if (clientOS === 'ios') {alert('Установите версию приложения для iOS по ссылке');}
