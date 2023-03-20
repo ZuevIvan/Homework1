@@ -1,26 +1,26 @@
 //* Задание 1 *//
 // через if 
-let a = Number(prompt(`Введи первое число`));
-let b = Number(prompt(`Введи второе число`));
-function numbers(a,b) {
-    if (a < b) {
-        return a;
-    } else if (a > b){ 
-        return b;        
+let q = Number(prompt(`Введи первое число`));
+let w = Number(prompt(`Введи второе число`));
+function numbers(q,w) {
+    if (q < w) {
+        return q;
+    } else if (q > w){ 
+        return w;        
     }
-      else if (a === b) {
-        return a || b;
+      else if (q === w) {
+        return q || w;
       }    
 }
 console.log(numbers(a,b));
 
 // через тернарные операторы
-let a = Number(prompt(`Введи первое число`));
-let b = Number(prompt(`Введи второе число`));
-function numbers(a,b) {
-    return (a < b) ? a : b;
+let y = Number(prompt(`Введи первое число`));
+let x = Number(prompt(`Введи второе число`));
+function numbers(y,x) {
+    return (y < x) ? y : x;
 }
-console.log(numbers(a,b));
+console.log(numbers(y,x));
 
 // через стрелочные функции
 let a = Number(prompt(`Введи первое число`));
@@ -44,9 +44,9 @@ console.log(typeOfNumber(c));
 // если вот эти строчки return console.log(`Вы ввели четное (не четное) число`); заенить на соответственно return true (faulse), то undefinded не пишет
 
 //* Задание 3.1 *//
-let d = Number(prompt(`Введите число`));
-function squareOfNumber(d) {
-    let square = d * d;
+let p = Number(prompt(`Введите число`));
+function squareOfNumber(p) {
+    let square = p * p;
     return square;
     }
 console.log(squareOfNumber(d));

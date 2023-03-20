@@ -67,6 +67,11 @@ body {
     margin-top: 44px;
     transition: all 0.5s;
 }
+.top_button:hover {
+    background-color: #EB443F;
+    border: 1px solid #EB443F;
+    cursor: pointer;
+}
 
 .bottom {
     height: 556px;
@@ -120,6 +125,61 @@ body {
     margin-top: 237px;
     margin-left: 32px;
 }
+
+.footer {
+    height: 800px;
+    padding-top: 282px;
+    background-image: url(./img/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__title {
+    max-width: 377px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.footer__text {
+    max-width: 584px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.footer__button {
+    background: #9C0332;
+    border: 1px solid #9c0332;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 234px;
+    height: 49px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 44px;
+    transition: all 0.5s;
+}
+
+.footer__button:hover {
+    background-color: #EB443F;
+    border: 1px solid #EB443F;
+    cursor: pointer;
+}
+
+
 
 /* Мобильная версия сайта */
 @media (max-width: 1140px) {
