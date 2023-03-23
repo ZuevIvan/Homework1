@@ -1,12 +1,12 @@
 //* Задание 1 *//
-let i = 0;
-while (i < 2) {console.log('Привет'); i++} //через While
-do {console.log('Привет'); i++} while (i < 2); //через Do...While
+let v = 0;
+while (v < 2) {console.log('Привет'); v++} //через While
+do {console.log('Привет'); v++} while (v < 2); //через Do...While
 
 //* Задание 2 *//
-let i = 1;
-while (i < 6) {console.log(i); i++} //через While
-for (let i = 1; i < 6; i++) {console.log(i);} //через For
+let c = 1;
+while (c < 6) {console.log(c); c++} //через While
+for (let c = 1; c < 6; i++) {console.log(c);} //через For
 
 //* Задание 3 *//
 for (let i = 7; i < 24; i++) {console.log(i);}
