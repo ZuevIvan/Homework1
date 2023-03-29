@@ -185,6 +185,20 @@ body {
     padding-top: 25px;
 }
 
+.footer_secondGame{
+    height: 800px;
+    padding-top: 282px;
+    background-image: url(./img/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
 
 
 /* Мобильная версия сайта */
@@ -216,6 +230,7 @@ body {
         display: flex;
         align-items: center;
         text-align: center;
+        flex-direction: column;
     }
 
     .footer__bar{
@@ -240,9 +255,21 @@ body {
         max-width: 344px;
         padding-top: 64px;
     }
+    
+    .footer_secondGame{
+        padding-top: 178px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
 }
 
-@media (max-width: 400px) {
+
+
+    
+
+@media (max-width: 767px) {
     .bottom__card-1 {
         width: 343px;
     }
@@ -317,6 +344,14 @@ body {
         max-width: 344px;
         padding-top: 64px;
         padding-bottom: 84px;
+    }
+
+    .footer_secondGame{
+        padding-top: 178px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
     }
 
 }
