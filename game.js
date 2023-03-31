@@ -7,8 +7,22 @@ function gameFirst() {
     else if (isNaN(mN) === true ) {return alert(`Ты втираешь мне какую-то ДИЧЬ!!!`);}   
 }
 
-function gameSecomd(){
-    let fruit = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-    let remember = alert(`$[fruit]`);
-    
+let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+fruits = fruits.sort(() => Math.random() - 0.5);
+alert(fruits);
+
+function riddle(quest, fruits){
+   quest = quest.toLowerCase();
+   if(quest == fruits){
+
+       alert("Верно.");
+       answer++;
+   }else{
+       alert("Сожалею, это неправильный ответ.");
+   }
 }
+var quest1 = prompt("Чему равнялся первый элемент массива?");
+    riddle(quest1, fruits[0]);
+
+var quest2 = prompt("Чему равнялся последний элемент массива?");
+    riddle(quest2, fruits[6]);
