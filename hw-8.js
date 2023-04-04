@@ -1,8 +1,20 @@
 //// задание 1
-/// Бонально не понимаю что от меня хотят
 
-
-
+function fn(arr, callback){ 
+    return callback(arr) 
+    }; 
+     
+    const a = [7, 9, 25]; 
+    function sum(arr){ 
+    return arr.reduce((sum, current) => sum + current); 
+    }; 
+     
+    function mult(arr){ 
+        return arr.reduce((mult, current) => mult * current); 
+    }; 
+     
+    console.log(fn(a, sum)); 
+    console.log(fn(a, mult));
 
 //// задание 2 
 
@@ -49,15 +61,24 @@ console.log(listUsers);
 /// задание 3
 
 
-const arr = [1, '4', 9, 'two'];
-const request = () => {
-   let response = response.reverse();
-   return response;
-}
-let response = request(arr);
-
-
-
+function each(arr, callback){ 
+    return callback(arr); 
+ }; 
+  
+ const b = [1, '4', 9, 'two']; 
+  
+ function reverseArr(arr){
+     return arr.reverse(b); 
+ }; 
+  
+ const c = [1,'4', false, 9, 'two']; 
+  
+ function numberArr(arr){ 
+     return (c.map(Number)). filter(item => isNan(item) === false); 
+ }     
+  
+ console.log(each (b, reverseArr)); 
+ console.log(each (c, reverseArr));
 
 
 /// задание 4 
